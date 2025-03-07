@@ -1,0 +1,23 @@
+.datasets-container {
+    padding: 20px;
+}
+
+.dataset-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.dataset-item h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.dataset-item p {
+    margin: 0.5em 0;
+}
+
+.dataset-item a {
+    color: blue;
+    text-decoration: underline;
+}
