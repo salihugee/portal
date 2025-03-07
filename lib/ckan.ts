@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const CKAN_BASE_URL = process.env.NEXT_PUBLIC_CKAN_BASE_URL || 'http://kdbs-sas.mooo.com/api/3/action';
+const CKAN_BASE_URL = process.env.NEXT_PUBLIC_CKAN_BASE_URL || 'https://your-ckan-public-domain.com/api/3/action';
 
 export interface CKANOrganization {
     id: string;
