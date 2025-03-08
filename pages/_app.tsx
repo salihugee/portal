@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 alt="Anambra State Open Data Portal Logo" 
                 className="h-10 w-auto mr-3" 
               />
-              <span className="text-xl font-bold">Anambra State Open Data Portal</span>
+              <span className="text-xl font-bold">Anambra Data Portal</span>
             </Link>
           </div>
 

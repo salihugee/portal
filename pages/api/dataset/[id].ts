@@ -55,7 +55,7 @@ export default async function handler(
 
     try {
         // Configurable CKAN URL with fallback
-        const CKAN_URL = process.env.CKAN_API_URL || 'https://your-ckan-public-domain.com/api/3/action/package_show';
+        const CKAN_URL = process.env.CKAN_API_URL || 'http://kdbs-sas.mooo.com/api/3/action/package_show';
 
         // Make API request with timeout and error handling
         const response = await axios.get<SuccessResponse>(CKAN_URL, {
